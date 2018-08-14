@@ -37,7 +37,7 @@ Or: via install script (this will create two autostart files for systemctl and e
 git clone https://github.com/bostrot/telegram-support-bot.git
 cd telegram-support-bot
 sudo bash setup
-sudo systemctl start YOUR_SUPPORT_BOT_SERVICE_NAME
+sudo systemctl start support
 ```
 
 Enter the bot location (ex. /home/bots/mybot.js) when asked and then your bot name (ex. mybot)
